@@ -6,7 +6,7 @@ on:
 
 jobs:
   run-sync:
-    uses: KoalaVim/actions-internal/.github/workflows/rebase-plugin.yml@master
+    uses: KoalaVim/actions-internal/.github/workflows/rebase-plugin.yml@feat/ai-conflict-resolution
     with:
       upstream_repo: "goolord/alpha-nvim"
       plugin_name: "alpha-nvim"
